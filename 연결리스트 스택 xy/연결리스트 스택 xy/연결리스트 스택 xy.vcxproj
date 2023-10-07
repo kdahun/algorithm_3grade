@@ -24,6 +24,7 @@
     <ProjectGuid>{ec3c555c-dc8a-41b3-a982-5d4b176cbdbf}</ProjectGuid>
     <RootNamespace>연결리스트스택xy</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>linkedliststack</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

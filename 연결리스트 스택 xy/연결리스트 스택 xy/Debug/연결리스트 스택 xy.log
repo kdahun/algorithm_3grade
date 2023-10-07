@@ -1,0 +1,58 @@
+﻿  소스.c
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(55,9): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(55,7): warning C4024: 'push': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(55,28): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(55,26): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(56,9): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(56,7): warning C4024: 'push': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(56,28): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(56,26): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(57,9): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(57,7): warning C4024: 'push': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(57,28): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(57,26): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(58,9): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(58,7): warning C4024: 'push': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(58,28): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(58,26): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(59,8): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(59,6): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(59,10): warning C4020: 'pop': 실제 매개 변수가 너무 많습니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(59,27): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(59,25): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(60,8): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(60,6): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(60,10): warning C4020: 'pop': 실제 매개 변수가 너무 많습니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(60,27): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(60,25): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(61,8): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(61,6): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(61,10): warning C4020: 'pop': 실제 매개 변수가 너무 많습니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(61,27): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(61,25): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(62,8): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(62,6): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(62,10): warning C4020: 'pop': 실제 매개 변수가 너무 많습니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(62,27): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(62,25): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(63,8): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(63,6): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(63,10): warning C4020: 'pop': 실제 매개 변수가 너무 많습니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(63,27): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(63,25): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(64,8): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(64,6): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(64,10): warning C4020: 'pop': 실제 매개 변수가 너무 많습니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(64,27): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(64,25): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(65,8): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(65,6): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(65,10): warning C4020: 'pop': 실제 매개 변수가 너무 많습니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(65,27): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(65,25): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(66,8): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(66,6): warning C4024: 'pop': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(66,10): warning C4020: 'pop': 실제 매개 변수가 너무 많습니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(66,27): warning C4047: '함수': 'Stack *'의 간접 참조 수준이 'Stack **'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\연결리스트 스택 xy\소스.c(66,25): warning C4024: 'printPoint': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+  연결리스트 스택 xy.vcxproj -> C:\Users\dahun\Desktop\algorithm_3grade\연결리스트 스택 xy\Debug\연결리스트 스택 xy.exe
