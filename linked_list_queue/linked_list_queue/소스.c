@@ -4,81 +4,74 @@
 #include<malloc.h>
 
 typedef struct Point {
-	int x;
-	int y;
+	int x, y;
 }Point;
 
 typedef struct Node {
 	Point point;
-	struct Node* link;
+	struct Node* list;
 }Node;
 
 typedef struct Queue {
-	Node* front;
-	Node* rear;
+	Node* front, *rear;
 }Queue;
 
-void push(Queue* queue, Point point) {
+
+void push(Queue *q,Point p) {
 	Node* temp = (Node*)malloc(sizeof(Node));
-	temp->link = NULL;
-	temp->point = point;
-	if (queue->front == NULL) {
-		queue->front = temp;
-		queue->rear = temp;
+	temp->list = NULL;
+	temp->point = p;
+
+	if (q->front == NULL) {
+		q->front = temp;
+		q->rear = temp;
 	}
 	else {
-		queue->rear->link = temp;
-		queue->rear = temp;
+		q->rear->list = temp;
+		q->rear = temp;
 	}
 }
 
-Point pop(Queue* queue) {
-	if (queue->front == NULL) {
-		printf("큐가 비어있음.");
+Point pop(Queue* q) {
+	if (q->front == NULL) {
+		printf("큐에 아무것도 없음");
 		exit(1);
 	}
 	else {
 		Node* temp = (Node*)malloc(sizeof(Node));
-		Point xy;
+		Point point;
 
-		temp = queue->front;
-		queue->front = temp->link;
-		xy = temp->point;
-		if (queue->front == NULL)
-			queue->rear = NULL;
-
+		temp = q->front;
+		point = temp->point;
+		q->front = temp->list;
+		if (q->front == NULL) {
+			q->rear = NULL;
+		}
 		free(temp);
-
-		return xy;
+		return point;
 	}
 }
 
-void printQueue(Queue* queue) {
-	for (Node* q = queue->front; q != NULL; q = q->link) {
-		printf("%d %d->", q->point.x, q->point.y);
+void print_queue(Queue* q) {
+	for (Node* p = q->front; p != NULL; p = p->list) {
+		printf("%d %d -> ", p->point.x, p->point.y);
 	}
 	printf("NULL\n");
 }
 
-void main() {
+void main(){
 	Queue q;
 	q.front = NULL;
 	q.rear = NULL;
 
-	Point p;
-
 	for (int i = 0; i < 5; i++) {
-		p.x = i;
-		p.y = i;
-
-		push(&q, p);
-		printQueue(&q);
+		Point point = { i,i };
+		push(&q, point);
+		print_queue(&q);
 	}
-
-	for (int i = 0; i < 6; i++) {
-		
-
+	for (int i = 0; i < 5; i++) {
 		pop(&q);
-		printQueue(&q);
+		print_queue(&q);
 	}
+
 }
