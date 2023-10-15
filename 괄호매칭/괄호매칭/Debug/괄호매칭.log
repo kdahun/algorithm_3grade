@@ -1,0 +1,3 @@
+﻿  소스.c
+C:\Users\dahun\Desktop\algorithm_3grade\괄호매칭\괄호매칭\소스.c(51,21): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  괄호매칭.vcxproj -> C:\Users\dahun\Desktop\algorithm_3grade\괄호매칭\Debug\괄호매칭.exe

@@ -1,0 +1,3 @@
+﻿  소스.c
+C:\Users\dahun\Desktop\algorithm_3grade\런길이압축\런길이압축\소스.c(47,18): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  런길이압축.vcxproj -> C:\Users\dahun\Desktop\algorithm_3grade\런길이압축\Debug\런길이압축.exe
