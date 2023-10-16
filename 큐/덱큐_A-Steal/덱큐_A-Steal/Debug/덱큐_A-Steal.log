@@ -1,4 +1,12 @@
 ﻿  소스.c
-C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(45): warning C4716: 'push_rear': 값을 반환해야 합니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(59,15): warning C4047: 'return': 'Queue *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(65,14): warning C4047: 'return': 'Queue *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(79,15): warning C4047: 'return': 'Queue *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(91,14): warning C4047: 'return': 'Queue *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(122,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'Queue *'입니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(130,43): warning C4047: '함수': 'int'의 간접 참조 수준이 'Queue *'과(와) 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(130,35): warning C4024: 'push_front': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(134,14): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'Queue *'입니다.
 C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(32): warning C4716: 'push_front': 값을 반환해야 합니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(45): warning C4716: 'push_rear': 값을 반환해야 합니다.
   덱큐_A-Steal.vcxproj -> C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\Debug\덱큐_A-Steal.exe

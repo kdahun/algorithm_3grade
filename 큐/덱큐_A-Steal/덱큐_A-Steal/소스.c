@@ -45,7 +45,51 @@ Queue* push_rear(Queue* q, int item) {
 }
 
 Queue* pop_front(Queue* q) {
+	if (q->front == NULL) {
+		printf("덱큐가 비었습니다.");
+		exit(1);
+	}
+	else {
+		Node* temp = q->front;
+		int data = temp->data;
 
+		if (q->front == q->rear) {
+			q->front = q->rear = NULL;
+
+			return data;
+		}
+
+		q->front = temp->next;
+		free(temp);
+
+		return data;
+	}
+}
+
+Queue* pop_rear(Queue* q) {
+	if (q->front == NULL) {
+		printf("덱큐가 비었습니다.");
+		exit(1);
+	}
+	else {
+		int data = q->rear->data;
+		if (q->front == q->rear) {
+			q->front = q->rear = NULL;
+
+			return data;
+		}
+
+		Node* temp = q->front;
+
+		while (temp->next != q->rear) {
+			temp = temp->next;
+		}
+
+		free(q->rear);
+		q->rear = temp;
+		q->rear->next = NULL;
+		return data;
+	}
 }
 
 void print_Queue(Queue* q) {
@@ -56,12 +100,43 @@ void print_Queue(Queue* q) {
 }
 
 void main() {
-	Queue* q = create();
+	Queue* cpu[3];
+	for (int i = 0; i < 3; i++) {
+		cpu[i] = create();
+	}
 
-	push_rear(q, 10);
-	print_Queue(q);
-	push_rear(q, 20);
-	print_Queue(q);
-	push_rear(q, 30);
-	print_Queue(q);
+	int done = 0;
+
+	push_front(cpu[0], 10);
+	push_front(cpu[0], 20);
+	push_front(cpu[0], 30);
+
+	push_front(cpu[1], 40);
+	push_front(cpu[1], 50);
+
+	push_front(cpu[2], 60);
+
+	while (done != 3) {
+		for (int i = 0; i < 3; i++) {
+			if (cpu[i]->front != NULL) {
+				printf("%d : %d\n", i, pop_rear(cpu[i]));
+				if (cpu[i]->front == NULL) {
+					done++;
+				}
+			}
+			else {
+				for (int j = 0; j < 3; j++) {
+					if (cpu[j]->front != NULL) {
+						push_front(cpu[i], pop_front(cpu[j]));
+						if (cpu[j]->front == NULL) {
+							done++;
+						}
+						printf("%d : %d\n", i, pop_rear(cpu[i]));
+
+						break;
+					}
+				}
+			}
+		}
+	}
 }
