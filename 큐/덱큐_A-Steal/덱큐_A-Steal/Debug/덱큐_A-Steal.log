@@ -1,0 +1,4 @@
+﻿  소스.c
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(45): warning C4716: 'push_rear': 값을 반환해야 합니다.
+C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\덱큐_A-Steal\소스.c(32): warning C4716: 'push_front': 값을 반환해야 합니다.
+  덱큐_A-Steal.vcxproj -> C:\Users\dahun\Desktop\algorithm_3grade\큐\덱큐_A-Steal\Debug\덱큐_A-Steal.exe
