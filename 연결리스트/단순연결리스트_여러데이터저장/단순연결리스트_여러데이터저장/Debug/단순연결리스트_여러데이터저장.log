@@ -1,0 +1,3 @@
+﻿  소스.c
+C:\Users\dahun\Desktop\algorithm_3grade\연결리스트\단순연결리스트_여러데이터저장\단순연결리스트_여러데이터저장\소스.c(44,44): warning C4305: '함수': 'double'에서 'float'(으)로 잘립니다.
+  단순연결리스트_여러데이터저장.vcxproj -> C:\Users\dahun\Desktop\algorithm_3grade\연결리스트\단순연결리스트_여러데이터저장\Debug\단순연결리스트_여러데이터저장.exe
