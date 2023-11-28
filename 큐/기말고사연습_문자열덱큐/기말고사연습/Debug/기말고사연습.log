@@ -1,0 +1,4 @@
+﻿  소스.c
+C:\Users\dahun\source\repos\기말고사연습\기말고사연습\소스.c(57): warning C4716: 'insertRear': 값을 반환해야 합니다.
+C:\Users\dahun\source\repos\기말고사연습\기말고사연습\소스.c(40): warning C4716: 'insertFront': 값을 반환해야 합니다.
+  기말고사연습.vcxproj -> C:\Users\dahun\source\repos\기말고사연습\Debug\기말고사연습.exe

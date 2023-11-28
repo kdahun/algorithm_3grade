@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
- 
 typedef struct Node {
     char data;
     struct Node* next;
@@ -38,11 +38,8 @@ char pop(Stack* s) {
     }
 }
 
-void print_stack(Stack* s) {
-    for (Node* q = s->top; q != NULL; q = q->next) {
-        printf("%c - >", q->data);
-    }
-    printf("\n");
+int is_operator(char ch) {
+    return (ch == '+' || ch == '-' || ch == '*' || ch == '/');
 }
 
 int prec(char op) {
@@ -54,51 +51,79 @@ int prec(char op) {
     return -1;
 }
 
-void infix_to_postfix(char exp[]) {
-    int i = 0;
-    char ch, top_op;
-    int len = strlen(exp);
-
+void infix_to_postfix(char infix[], char postfix[]) {
+    int len = strlen(infix);
     Stack* s = create_stack();
+    int j = 0; // 후위 표기식 문자 배열 인덱스
 
-    for (i = 0; i < len; i++) {
-        ch = exp[i];
-        switch (ch) {
-        case '+':
-        case '-':
-        case '*':
-        case '/':
-            while (s->top != NULL && (prec(ch) <= prec(s->top->data))) {
-                printf("%c", pop(s));
+    for (int i = 0; i < len; i++) {
+        char ch = infix[i];
+        if (ch >= '0' && ch <= '9') {
+            postfix[j++] = ch; // 피연산자는 그대로 출력
+        }
+        else if (ch == '(') {
+            push_stack(s, ch);
+        }
+        else if (ch == ')') {
+            while (s->top != NULL && s->top->data != '(') {
+                postfix[j++] = pop(s); // '('를 만날 때까지 연산자를 출력
+            }
+            pop(s); // '('를 스택에서 제거
+        }
+        else if (is_operator(ch)) {
+            while (s->top != NULL && prec(ch) <= prec(s->top->data)) {
+                postfix[j++] = pop(s); // 스택의 연산자를 출력
             }
             push_stack(s, ch);
-            break;
-        case '(':
-            push_stack(s, ch);
-            break;
-        case ')':
-            top_op = pop(s);
-            while (top_op != '(') {
-                printf("%c", top_op);
-                top_op = pop(s);
-            }
-            break;
-        default:
-            printf("%c", ch);
-            break;
         }
     }
 
     while (s->top != NULL) {
-        printf("%c", pop(s));
+        postfix[j++] = pop(s); // 남은 연산자 출력
     }
+
+    postfix[j] = '\0'; // 문자열 종료
+}
+
+int evaluate_postfix(char postfix[]) {
+    int len = strlen(postfix);
+    Stack* s = create_stack();
+
+    for (int i = 0; i < len; i++) {
+        char ch = postfix[i];
+        if (ch >= '0' && ch <= '9') {
+            push_stack(s, ch - '0'); // 숫자면 스택에 푸시
+        }
+        else if (is_operator(ch)) {
+            // 연산자를 만났을 때 스택에서 피연산자를 팝하고 연산 수행
+            int operand2 = pop(s);
+            int operand1 = pop(s);
+            int result;
+            switch (ch) {
+            case '+': result = operand1 + operand2; break;
+            case '-': result = operand1 - operand2; break;
+            case '*': result = operand1 * operand2; break;
+            case '/': result = operand1 / operand2; break;
+            }
+            push_stack(s, result); // 결과를 스택에 푸시
+        }
+    }
+
+    // 최종 결과는 스택에 남아 있어야 합니다.
+    return pop(s);
 }
 
 int main() {
-    char* s = "(2+3)*4+9";
-    printf("중위표시수식 %s\n", s);
-    printf("후위표시수식 ");
-    infix_to_postfix(s);
-    printf("\n");
+    char infix[] = "(2+3)*4+9";
+    printf("중위 표기식: %s\n", infix);
+
+    char postfix[100]; // 후위 표기식을 저장할 배열
+    infix_to_postfix(infix, postfix);
+
+    printf("후위 표기식: %s\n", postfix);
+
+    int result = evaluate_postfix(postfix);
+    printf("계산 결과: %d\n", result);
+
     return 0;
 }
